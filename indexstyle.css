@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height: 100vh;
+    background-image: url("./preview.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: rgba(2, 2, 2, 0.9);
+}
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    padding: 10px 45px 10px 40px;
+}
+
+.buy{
+    display: flex;
+    align-items: center ;
+}
+
+.buy a{
+    text-decoration: none;
+    text-align: center;
+    background-color: #e96343;
+    padding: 9px;
+   width: 100px;
+   height: 14px;
+   border-radius: 30px;
+   color: white;
+   font-size: x-small;
+}
+
+.bucker{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-areas: "b"
+                         "bs"
+                         "sp";
+        margin-top: 18%;
+
+
+}
+
+.buck{
+    grid-area: b;
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
+
+.shop{
+    margin-top: 30px;
+    display:flex;
+    justify-content: center;
+    grid-area: bs;
+    color: white;
+}
+
+.shoppara{
+}
+
+.shoppara p{
+    display: block;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    margin: 0px 390px;
+    line-height: 2;
+}
+ 
+
+.demo{
+    display: grid;
+    justify-content: center;
+    padding-top: 50px;
+}
+.demo button{
+    color: white;
+    background-color: #111111;
+    height: 30px;   
+    width: 105px;
+    border-radius: 30px;
+    border: white 2px solid;
+    font-size:x-small;
+}
+
+.demo button:hover{
+    background-color: #e96343;
+    cursor: pointer;
+}
